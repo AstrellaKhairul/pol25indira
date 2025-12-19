@@ -6,7 +6,7 @@ menuToggle.addEventListener("click", () => {
   navLinks.classList.toggle("active");
 });
 
-// Optional: Fade-in animation on scroll (untuk elemen yang ingin diberi animasi masuk)
+// Optional: Fade-in animation on scroll 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -23,4 +23,5 @@ document.querySelectorAll('.fade').forEach(el => observer.observe(el));
     navLinks.classList.toggle("active");
   }
 </script>
+
 
